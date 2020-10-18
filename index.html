@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>APP com Electron</title>
+</head>
+<body>
+    <h1>Primeiro app com Electron</h1>
+    <img class="imagem" src="https://miro.medium.com/max/4434/1*pU4GSbkuw0EPBec1HSeyeA.png">
+
+    <div>
+        <h2>Gerador de senha aleatório</h2>
+        <div>
+            <label>Qual o tamanho da senha?</label>
+            <input type="number" id="pass" min="0" max="15">
+            <button onclick="gerarPass()">Gerar Senha</button>
+        </div>
+
+        <div>
+            <span id="newsPass"></span>
+        </div>
+    </div>
+
+</body>
+<script src="./src/script.js"></script>
+</html>
